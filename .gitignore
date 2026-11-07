@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Databases
+*.db
+*.sqlite3
+accesspilot.db
+
+# Environment / secrets — NEVER commit .env
+.env
+.env.*
+!.env.example
+
+# Workspaces and tool artifacts
+backend/workspace/
+backend/tools/*.exe
+
+# Node
+node_modules/
+frontend/dist/
+
+# Scrape artifacts
+*.log
+sg.json
+sg.err
